@@ -28,14 +28,14 @@ pip install moviepy pysrt
 
 1. **準備影片與字幕文件**：
 
-   將您的影片文件（例如 `DJI_0132.MP4`）和字幕文件（例如 `DJI_0132.srt`）放在對應的目錄下。
+   將您的影片文件（例如 `video1.MP4`）和字幕文件（例如 `video1.srt`）放在對應的目錄下。
 
 2. **定義輸入與輸出文件**：
 
    修改腳本中的 `FILE_NAME` 變數，以設置輸入文件的路徑和名稱：
 
    ```python
-   FILE_NAME = "/home/ubuntu/大疆影片/0132/DJI_0132"
+   FILE_NAME = "/home/ubuntu/video/DJI_0132"
    ```
 
 3. **定義移除的時間段**：
@@ -58,7 +58,7 @@ pip install moviepy pysrt
    python your_script_name.py
    ```
 
-   **注意**：請將 `your_script_name.py` 替換為實際的腳本文件名。
+   **注意**：請將 `video_subtitle_cutter.py` 替換為實際的腳本文件名。
 
 5. **檢查輸出結果**：
 
@@ -95,19 +95,4 @@ pip install moviepy pysrt
 
 - **版本**：1.0.0
 - **日期**：2024 年 10 月 14 日
-- **作者**：您的姓名
-
-## 聯繫方式
-
-如有任何問題或建議，請聯繫：
-
-- **電子郵件**：your.email@example.com
-- **GitHub**：https://github.com/your-github-profile
-
-## 授權
-
-此腳本基於 MIT 授權條款發布。詳情請參閱 [LICENSE](LICENSE) 文件。
-
----
-
-**感謝您使用此腳本！希望它能幫助您輕鬆處理影片與字幕。**
+- **作者**：Sian-Ci Cheng
